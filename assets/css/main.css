@@ -1,1 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 @import url("./reset.css");
+
+:root {
+  --color-main-background: hsl(217, 54%, 11%);
+  --color-card-background: hsl(216, 50%, 16%);
+  --color-neutral: hsl(0, 0%, 100%);
+  --color-primary-blue: hsl(215, 51%, 70%);
+  --color-primary-cyan: hsl(178, 100%, 50%);
+}
+
+.wrapper {
+  align-items: center;
+  background-color: var(--color-main-background);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.text {
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background-color: var(--color-card-background);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 320px;
+}
+
+.card__image {
+  border-radius: .75rem;
+  width: 100%;
+}
+
+.card__title {
+  color: var(--color-neutral);
+}
+
+.card__text {
+  color: var(--color-primary-blue);
+}
+
+.card__price {
+  color: var(--color-primary-cyan);
+}
+
+.card__time-left {
+  color: var(--color-primary-blue);
+}
+
+.card__creator {
+  color: var(--color-primary-blue);
+}
+
+.card__highlight {
+  color: var(--color-neutral);
+}
