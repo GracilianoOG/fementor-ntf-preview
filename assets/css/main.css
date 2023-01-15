@@ -49,7 +49,7 @@
 .card__information {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .card__price {
@@ -66,8 +66,20 @@
 }
 
 .card__footer {
+  align-items: center;
   border-top: 2px solid var(--color-card-line);
-  padding-top: 1rem;
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 0;
+}
+
+.card__avatar {
+  background: url("../images/image-avatar.png") no-repeat center / cover;
+  border: 2px solid var(--color-neutral);
+  border-radius: 50%;
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .card__creator {
