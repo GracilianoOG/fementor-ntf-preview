@@ -4,6 +4,7 @@
 :root {
   --color-main-background: hsl(217, 54%, 11%);
   --color-card-background: hsl(216, 50%, 16%);
+  --color-card-line: hsl(215, 32%, 27%);
   --color-neutral: hsl(0, 0%, 100%);
   --color-primary-blue: hsl(215, 51%, 70%);
   --color-primary-cyan: hsl(178, 100%, 50%);
@@ -62,6 +63,11 @@
   background: url("../images/icon-clock.svg") no-repeat left center;
   color: var(--color-primary-blue);
   padding-left: 1.25rem;
+}
+
+.card__footer {
+  border-top: 2px solid var(--color-card-line);
+  padding-top: 1rem;
 }
 
 .card__creator {
