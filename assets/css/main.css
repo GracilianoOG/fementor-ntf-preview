@@ -30,7 +30,7 @@
 }
 
 .card__image {
-  border-radius: .75rem;
+  border-radius: .5rem;
   margin-bottom: 1rem;
   width: 100%;
 }
@@ -43,7 +43,7 @@
 .card__text {
   color: var(--color-primary-blue);
   line-height: 140%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .card__information {
