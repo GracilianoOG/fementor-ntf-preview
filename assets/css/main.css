@@ -24,29 +24,44 @@
 .card {
   background-color: var(--color-card-background);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.25rem;
   max-width: 320px;
 }
 
 .card__image {
   border-radius: .75rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
 .card__title {
   color: var(--color-neutral);
+  margin-bottom: 1rem;
 }
 
 .card__text {
   color: var(--color-primary-blue);
+  line-height: 140%;
+  margin-bottom: 1rem;
+}
+
+.card__information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .card__price {
+  background: url("../images/icon-ethereum.svg") no-repeat left center;
   color: var(--color-primary-cyan);
+  font-weight: 600;
+  padding-left: 1.25rem;
 }
 
 .card__time-left {
+  background: url("../images/icon-clock.svg") no-repeat left center;
   color: var(--color-primary-blue);
+  padding-left: 1.25rem;
 }
 
 .card__creator {
