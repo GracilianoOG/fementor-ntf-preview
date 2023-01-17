@@ -77,20 +77,21 @@
 
 .card__footer {
   align-items: center;
-  border-top: .125rem solid var(--color-card-line);
+  border-top: .0625rem solid var(--color-card-line);
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 1rem;
   padding: 1rem 0;
 }
 
 .card__avatar {
+  --size-avatar: 2rem;
   background: url("../images/image-avatar.png") no-repeat center / cover;
-  border: .125rem solid var(--color-neutral);
+  border: .0625rem solid var(--color-neutral);
   border-radius: 50%;
   display: inline-block;
-  height: 2.5rem;
-  width: 2.5rem;
+  height: var(--size-avatar);
+  width: var(--size-avatar);
 }
 
 .card__creator {
