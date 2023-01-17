@@ -40,6 +40,15 @@
   margin-bottom: 1rem;
 }
 
+.card__link {
+  color: var(--color-neutral);
+  transition: color 200ms;
+}
+
+.card__link:hover {
+  color: var(--color-primary-cyan);
+}
+
 .card__text {
   color: var(--color-primary-blue);
   line-height: 140%;
@@ -86,8 +95,4 @@
 
 .card__creator {
   color: var(--color-primary-blue);
-}
-
-.card__highlight {
-  color: var(--color-neutral);
 }
