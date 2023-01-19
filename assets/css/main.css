@@ -22,6 +22,15 @@
 
 .text {
   font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .card {
@@ -106,7 +115,6 @@
 .card__price {
   background: url("../images/icon-ethereum.svg") no-repeat left center;
   color: var(--color-primary-cyan);
-  font-weight: 600;
   padding-left: 1.25rem;
 }
 
