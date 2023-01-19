@@ -70,6 +70,7 @@
 
 .card__link:hover {
   color: var(--color-primary-cyan);
+  text-decoration: underline;
 }
 
 .card__text {
