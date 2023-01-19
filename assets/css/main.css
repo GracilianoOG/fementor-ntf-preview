@@ -36,7 +36,7 @@
 .card {
   background-color: var(--color-card-background);
   border-radius: 1rem;
-  padding: 1.25rem;
+  padding: 1.4rem;
   transition: box-shadow 300ms, transform 300ms;
   max-width: 20rem;
 }
@@ -64,7 +64,7 @@
 .card__figure {
   border-radius: .5rem;
   cursor: pointer;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   overflow: hidden;
   position: relative;
 }
@@ -76,6 +76,7 @@
 
 .card__title {
   color: var(--color-neutral);
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
