@@ -9,6 +9,7 @@
   --color-primary-blue: hsl(215, 51%, 70%);
   --color-primary-cyan: hsl(178, 100%, 50%);
   --color-card-preview: hsla(178, 100%, 50%, .5);
+  --color-card-shadow: rgba(0, 0, 0, .35);
 }
 
 .wrapper {
@@ -27,7 +28,13 @@
   background-color: var(--color-card-background);
   border-radius: 1rem;
   padding: 1.25rem;
+  transition: box-shadow 300ms, transform 300ms;
   max-width: 20rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 0.9375rem var(--color-card-shadow);
+  transform: scale(1.1);
 }
 
 .card__figure::before {
