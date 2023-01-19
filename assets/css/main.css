@@ -113,15 +113,15 @@
 }
 
 .card__price {
-  background: url("../images/icon-ethereum.svg") no-repeat left center;
+  background: url("../images/icon-ethereum.svg") no-repeat left center / auto 100%;
   color: var(--color-primary-cyan);
   padding-left: 1.25rem;
 }
 
 .card__time-left {
-  background: url("../images/icon-clock.svg") no-repeat left center;
+  background: url("../images/icon-clock.svg") no-repeat left center / auto 100%;
   color: var(--color-primary-blue);
-  padding-left: 1.25rem;
+  padding-left: 1.5rem;
 }
 
 .card__footer {
