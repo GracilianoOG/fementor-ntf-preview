@@ -65,12 +65,22 @@
 
 .card__link {
   color: var(--color-neutral);
-  transition: color 200ms;
+  transition: color 400ms;
 }
 
 .card__link:hover {
-  color: var(--color-primary-cyan);
   text-decoration: underline;
+}
+
+.card__link:focus {
+  /* outline-width outline-style outline-color */
+  outline: .1rem dashed var(--color-primary-cyan);
+  outline-offset: .15rem;
+}
+
+.card__link:hover,
+.card__link:focus {
+  color: var(--color-primary-cyan);
 }
 
 .card__text {
