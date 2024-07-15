@@ -7,13 +7,14 @@
   --color-primary-cyan: hsl(178, 100%, 50%);
   --color-card-preview: hsla(178, 100%, 50%, .5);
   --color-card-shadow: rgba(0, 0, 0, .35);
+  --font-primary: 'Outfit', sans-serif;
 }
 
 .wrapper {
   align-items: center;
   background-color: var(--color-main-background);
   display: flex;
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-primary);
   font-weight: 400;
   justify-content: center;
   min-height: 100vh;
