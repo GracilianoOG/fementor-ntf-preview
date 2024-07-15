@@ -137,7 +137,7 @@
 }
 
 .card__avatar {
-  --size-avatar: 2rem;
+  --size-avatar: 2.063rem;
   background: url("../images/image-avatar.png") no-repeat center / cover;
   border: .0625rem solid var(--color-neutral);
   border-radius: 50%;
