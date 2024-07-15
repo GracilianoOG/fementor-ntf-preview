@@ -118,7 +118,7 @@
 .card__price {
   background: url("../images/icon-ethereum.svg") no-repeat left center / auto 90%;
   color: var(--color-primary-cyan);
-  padding-left: 1.25rem;
+  padding-left: 1.1rem;
 }
 
 .card__time-left {
