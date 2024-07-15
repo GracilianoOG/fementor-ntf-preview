@@ -1,0 +1,12 @@
+.footer {
+  bottom: 0.65rem;
+  color: var(--color-neutral);
+  font-size: 0.95rem;
+  position: absolute;
+  text-align: center;
+}
+
+.footer__link {
+  color: var(--color-primary-cyan);
+  text-decoration: underline;
+}
