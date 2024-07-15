@@ -1,15 +1,3 @@
-:root {
-  --color-main-background: hsl(217, 54%, 11%);
-  --color-card-background: hsl(216, 50%, 16%);
-  --color-card-line: hsl(215, 32%, 27%);
-  --color-neutral: hsl(0, 0%, 100%);
-  --color-primary-blue: hsl(215, 51%, 70%);
-  --color-primary-cyan: hsl(178, 100%, 50%);
-  --color-card-preview: hsla(178, 100%, 50%, .5);
-  --color-card-shadow: rgba(0, 0, 0, .35);
-  --font-primary: 'Outfit', sans-serif;
-}
-
 .wrapper {
   align-items: center;
   background-color: var(--color-main-background);
