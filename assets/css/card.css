@@ -99,11 +99,12 @@
   padding-top: 1rem;
 }
 
-.card__avatar {
+.card__footer::before {
   --size-avatar: 2.063rem;
   background: url("../images/image-avatar.png") no-repeat center / cover;
   border: .0625rem solid var(--color-neutral);
   border-radius: 50%;
+  content: "";
   display: inline-block;
   height: var(--size-avatar);
   width: var(--size-avatar);
