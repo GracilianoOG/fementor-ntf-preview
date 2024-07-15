@@ -17,7 +17,8 @@
   font-weight: 400;
   justify-content: center;
   min-height: 100vh;
-  padding: 1.406rem;
+  padding: 3rem 1.406rem;
+  position: relative;
 }
 
 .light {
@@ -26,4 +27,12 @@
 
 .bold {
   font-weight: 600;
+}
+
+.footer {
+  bottom: 0.65rem;
+  color: var(--color-neutral);
+  font-size: 0.95rem;
+  position: absolute;
+  text-align: center;
 }
