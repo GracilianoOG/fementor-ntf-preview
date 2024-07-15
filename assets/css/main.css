@@ -46,6 +46,14 @@
   transform: scale(1.1);
 }
 
+.card__figure {
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
 .card__figure::before {
   background: url("../images/icon-view.svg") no-repeat center var(--color-card-preview);
   display: inline-block;
@@ -61,14 +69,6 @@
   opacity: 1;
 }
 
-.card__figure {
-  border-radius: .5rem;
-  cursor: pointer;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
-  position: relative;
-}
-
 .card__image {
   display: block;
   width: 100%;
@@ -80,32 +80,11 @@
   margin-bottom: 1rem;
 }
 
-.card__link {
-  color: var(--color-neutral);
-  transition: color 400ms;
-}
-
-.card__link:hover {
-  text-decoration: underline;
-}
-
-.card__link:focus {
-  /* outline-width outline-style outline-color */
-  outline: .1rem dashed var(--color-primary-cyan);
-  outline-offset: .15rem;
-}
-
-.card__link:hover,
-.card__link:focus {
-  color: var(--color-primary-cyan);
-}
-
 .card__text {
   color: var(--color-primary-blue);
   font-size: 1.13rem;
   margin-bottom: 1.4rem;
   line-height: 1.4;
-  /* line-height: 140%; */
 }
 
 .card__information {
@@ -125,6 +104,25 @@
   background: url("../images/icon-clock.svg") no-repeat left center / auto 80%;
   color: var(--color-primary-blue);
   padding-left: 1.5rem;
+}
+
+.card__link {
+  color: var(--color-neutral);
+  transition: color 400ms;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+}
+
+.card__link:focus {
+  outline: .1rem dashed var(--color-primary-cyan);
+  outline-offset: .15rem;
+}
+
+.card__link:hover,
+.card__link:focus {
+  color: var(--color-primary-cyan);
 }
 
 .card__footer {
