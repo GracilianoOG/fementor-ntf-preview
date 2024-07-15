@@ -80,11 +80,6 @@
   text-decoration: underline;
 }
 
-.card__link:focus {
-  outline: .1rem dashed var(--color-primary-cyan);
-  outline-offset: .15rem;
-}
-
 .card__link:hover,
 .card__link:focus {
   color: var(--color-primary-cyan);
