@@ -103,7 +103,7 @@
 .card__text {
   color: var(--color-primary-blue);
   font-size: 1.13rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.4rem;
   line-height: 1.4;
   /* line-height: 140%; */
 }
